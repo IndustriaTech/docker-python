@@ -5,4 +5,11 @@ Here we store Dockerfile configurations for python images that we use with docke
 They are currently only two: one for Python2.7 and one for Python3.4.
 Both are based on current debian stable (as of now Debian 8.2)
 
-The images include Python with development header files and python drivers for accesing PostgreSQL and MySQL databases.
+The images include:
+
+ - Python with development header files
+ - pip
+ - Python drivers for accesing PostgreSQL and MySQL databases.
+ - PIL (Pillow)
+
+Everything is from standart Debian packages except MySQL client for Python3. It is installed with pip.

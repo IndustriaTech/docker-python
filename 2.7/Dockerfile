@@ -7,6 +7,7 @@ RUN apt-get update && apt-get install -y \
     python \
     python-dev \
     python-pip \
+    python-pil \
     python-psycopg2 \
     python-mysqldb \
     && apt-get clean
