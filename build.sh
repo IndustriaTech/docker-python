@@ -10,5 +10,5 @@ for tag in $tags; do
 done
 
 for tag in $tags; do
-    echo docker build -t magicsolutions/python:$tag $tag
+    docker build -t magicsolutions/python:$tag $tag
 done
